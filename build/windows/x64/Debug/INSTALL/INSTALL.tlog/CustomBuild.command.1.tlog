@@ -1,0 +1,10 @@
+^C:\USERS\91940\ONEDRIVE\DESKTOP\FLUTTER\DIFFERENT_SWITCH_CALCULATOR\BUILD\WINDOWS\CMAKEFILES\4667B6079132C813C8692D890ADC1322\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

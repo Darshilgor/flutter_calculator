@@ -1,0 +1,28 @@
+^C:\USERS\91940\ONEDRIVE\DESKTOP\FLUTTER\DIFFERENT_SWITCH_CALCULATOR\BUILD\WINDOWS\CMAKEFILES\31AB1E2C08BBCC1D265767E472AD0607\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\91940\Flutter\flutter PROJECT_DIR=C:\Users\91940\OneDrive\Desktop\Flutter\different_switch_calculator FLUTTER_ROOT=C:\Users\91940\Flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\91940\OneDrive\Desktop\Flutter\different_switch_calculator\windows\flutter\ephemeral PROJECT_DIR=C:\Users\91940\OneDrive\Desktop\Flutter\different_switch_calculator FLUTTER_TARGET=C:\Users\91940\OneDrive\Desktop\Flutter\different_switch_calculator\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC80NWY2ZTAwOTExMGRmNGYzNGVjMmNmOTlmNjNjZjczYjcxYjdhNDIwLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\91940\OneDrive\Desktop\Flutter\different_switch_calculator\.dart_tool\package_config.json C:/Users/91940/Flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91940\ONEDRIVE\DESKTOP\FLUTTER\DIFFERENT_SWITCH_CALCULATOR\BUILD\WINDOWS\CMAKEFILES\D3478A7F28AD1AF26E8E0858EF2F6487\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\91940\ONEDRIVE\DESKTOP\FLUTTER\DIFFERENT_SWITCH_CALCULATOR\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/91940/OneDrive/Desktop/Flutter/different_switch_calculator/windows -BC:/Users/91940/OneDrive/Desktop/Flutter/different_switch_calculator/build/windows --check-stamp-file C:/Users/91940/OneDrive/Desktop/Flutter/different_switch_calculator/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
